@@ -107,7 +107,6 @@ public class Lista1{
             
             c) O terceiro elevado ao cubo.
             real ** 3
-        */
         System.out.println("Digite o primeiro número inteiro ");
         int number1 = entrada.nextInt();
         System.out.println("Digite o segundo número inteiro");
@@ -124,8 +123,39 @@ public class Lista1{
         System.out.println("b) A soma do triplo do primeiro com o terceiro. Resposta "+somaB);
         double triplo = Math.pow(real, 3);
         System.out.println("c) O terceiro elevado ao cubo. Resposta "+triplo);
+    
+
+        Tendo como dados de entrada a altura de uma pessoa,
+        construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58
+
+        System.out.println(" Informe sua altura: ");
+        double altura = entrada.nextDouble();
+        double pesoIdeal = (72.7 * altura)-58;
+        System.out.println(" Seu peso ideal é "+(float)pesoIdeal);
+        */
+        /*Tendo como dado de entrada a altura (h) de uma pessoa, 
+        construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
+        Para homens: (72.7*h) - 58
+        Para mulheres: (62.1*h) - 44.7 */
+        
+        System.out.println(" Informe sua altura: ");
+        double tamanho = entrada.nextDouble();
+        System.out.println(" Informe sua sexo( letras minusculas.): ");
+        String sexo = entrada.next();
+        
+        if( "m" == sexo){
+            double imcIdealmulher = (62.1 * tamanho) - 44.7;
+            System.out.println(" sexo é M");
+            System.out.println(" Seu peso ideal é "+imcIdealmulher);
+        } else if("h" == sexo){
+            double imcIdealhomem = (72.7 * tamanho) - 58;
+            System.out.println(" sexo é H");
+            System.out.println(" Seu peso ideal é "+imcIdealhomem);
+        }else{
+            System.out.println("Você digitou "+sexo+" Porém, escolha apenas entre H para Homem e M para mulheres.");
+        }
+
         entrada.close();
     }
-
 
 }
