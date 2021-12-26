@@ -1,4 +1,4 @@
-import java.lang.Math;
+//import java.lang.Math;
 import java.util.Scanner;
 public class Lista1{
 
@@ -174,7 +174,7 @@ public class Lista1{
         excesso = Quantidade de kilos além do 50 kilos ( preferêncialmente imprimir a diferença);
         Saida: João pescou pesoPeixes se pesoPeixes < 50 kilos = pesoPeixes * 4 printar excesso - 50kilos; Senão = 
         printar = pesoPeixe e a mensagem: Não utrapassou o limite permitido. 
-        */
+        
         System.out.println(" Digite peso total dos peixes em kilos");
         int pesoPeixes = entrada.nextInt();
         int limite = 50;
@@ -187,8 +187,61 @@ public class Lista1{
             System.out.println("Você não excedeu o limite tolerável de 50 kilos");
             System.out.println("Com o total de "+pesoPeixes+" Kilos");
         }
+        */
+        /*
+        Faça um Programa que pergunte quanto você ganha por hora 
+        e o número de horas trabalhadas no mês. Calcule e mostre o 
+        total do seu salário no referido mês, sabendo-se que são 
+        descontados 11% para o Imposto de Renda, 8% para o INSS 
+        e 5% para o sindicato, faça um programa que nos dê:
+        salário bruto.
+        
+        quanto pagou ao INSS.
+        quanto pagou ao sindicato.
+        o salário líquido.
+        calcule os descontos e o salário líquido, conforme a tabela abaixo:
+        + Salário Bruto : R$
+        - IR (11%) : R$
+        - INSS (8%) : R$
+        - Sindicato ( 5%) : R$
+        = Salário Liquido : R$
+        Obs.: Salário Bruto - Descontos = Salário Líquido.
+         */
 
+        System.out.println("Quanto você ganha por hora? ");
+        float hora_Valor = entrada.nextFloat();
+        System.out.println("Quantas horas você trabalha por semana? ");
+        int horas_Trabalhadas = entrada.nextInt();
+        int valor_Semana = (int)hora_Valor * horas_Trabalhadas;
+        double valor_Pmes = valor_Semana*4;
 
+        //impostos
+        double impostoDrenda = (11 * valor_Pmes)/100;
+        double inss = (8 * valor_Pmes)/100;
+        double sindicato = (5 * valor_Pmes)/100;
+        double medidor = valor_Pmes *12;
+        double condicao = 30.000;
+        double descontos = valor_Pmes - inss - sindicato;
+        float rendaLiquida= (float)descontos;
+        if (medidor > condicao){
+            float rendaLiquidaCdescont = (float)descontos - (float)impostoDrenda;
+            System.out.println("_________________________________________________________");
+            System.out.println("| Sálario bruto:            "+valor_Pmes+"              ");
+            System.out.println("| Imposto de Renda:        -"+impostoDrenda+"           ");
+            System.out.println("| Sindicato:               -"+sindicato+"               ");
+            System.out.println("| INSS                     -"+inss+"                    ");
+            System.out.println("| Salário Liquído          -"+rendaLiquidaCdescont+"    ");
+            System.out.println("|_______________________________________________________");
+        }else{
+            System.out.println("_________________________________________________________");
+            System.out.println("| Sálario bruto:            "+valor_Pmes+"              ");
+            System.out.println("| Sindicato:               -"+sindicato+"               ");
+            System.out.println("| INSS                     -"+inss+"                    ");
+            System.out.println("| Salário Liquído          -"+rendaLiquida+"            ");
+            System.out.println("|_______________________________________________________");
+
+        }
+      
         entrada.close();
     }
 
