@@ -141,13 +141,15 @@ public class Lista1{
         System.out.println(" Informe sua altura: ");
         double tamanho = entrada.nextDouble();
         System.out.println(" Informe sua sexo( letras minusculas.): ");
-        String sexo = entrada.next();
+        char sexo = entrada.next().charAt(0);
+        char homem = 'h';
+        char mulher = 'm';
         
-        if( "m" == sexo){
+        if( mulher == sexo){
             double imcIdealmulher = (62.1 * tamanho) - 44.7;
             System.out.println(" sexo é M");
             System.out.println(" Seu peso ideal é "+imcIdealmulher);
-        } else if("h" == sexo){
+        } else if( homem == sexo){
             double imcIdealhomem = (72.7 * tamanho) - 58;
             System.out.println(" sexo é H");
             System.out.println(" Seu peso ideal é "+imcIdealhomem);
