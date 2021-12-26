@@ -136,7 +136,7 @@ public class Lista1{
         /*Tendo como dado de entrada a altura (h) de uma pessoa, 
         construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
         Para homens: (72.7*h) - 58
-        Para mulheres: (62.1*h) - 44.7 */
+        Para mulheres: (62.1*h) - 44.7
         
         System.out.println(" Informe sua altura: ");
         double tamanho = entrada.nextDouble();
@@ -156,6 +156,38 @@ public class Lista1{
         }else{
             System.out.println("Você digitou "+sexo+" Porém, escolha apenas entre H para Homem e M para mulheres.");
         }
+        */
+        /*João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o 
+        rendimento diário de seu trabalho. Toda vez que ele traz um peso de peixes maior 
+        que o estabelecido pelo regulamento de pesca do estado de São Paulo (50 quilos)
+        deve pagar uma multa de R$ 4,00 por quilo excedente.
+        João precisa que você faça um programa que leia a variável peso (peso de peixes) 
+        e calcule o excesso.
+        Gravar na variável excesso a quantidade de quilos além
+        do limite e na variável multa o valor da multa que João deverá pagar.
+        Imprima os dados do programa com as mensagens adequadas. 
+        
+        ANALISE: 
+        Condição se peixes < 50 kilos então peixes * 4,00 R$
+        Variáveis:
+        pesoPeixes = Kilos dos peixes pescados;
+        excesso = Quantidade de kilos além do 50 kilos ( preferêncialmente imprimir a diferença);
+        Saida: João pescou pesoPeixes se pesoPeixes < 50 kilos = pesoPeixes * 4 printar excesso - 50kilos; Senão = 
+        printar = pesoPeixe e a mensagem: Não utrapassou o limite permitido. 
+        */
+        System.out.println(" Digite peso total dos peixes em kilos");
+        int pesoPeixes = entrada.nextInt();
+        int limite = 50;
+        int excesso = pesoPeixes - limite;
+        if(pesoPeixes > limite){
+            System.out.println("Você excedeu o limite tolerável de 50 kilos");
+            double multa = (float) excesso * 4.00;
+            System.out.println("Utrpassando "+excesso+" kilos, será adicionado R$ 4,00 para cada kilo deverá pagar: R$"+multa+" no Total"); 
+        }else{
+            System.out.println("Você não excedeu o limite tolerável de 50 kilos");
+            System.out.println("Com o total de "+pesoPeixes+" Kilos");
+        }
+
 
         entrada.close();
     }
