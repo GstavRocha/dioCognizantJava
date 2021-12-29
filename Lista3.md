@@ -16,7 +16,7 @@ Faça um programa que leia 5 números e informe a soma e a média dos números.
 Faça um programa que imprima na tela apenas os números ímpares entre 1 e 50.
 Faça um programa que receba dois números inteiros e gere os números inteiros que estão no intervalo compreendido por eles.
 Altere o programa anterior para mostrar no final a soma dos números.
-Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10. O usuário deve informar de qual numero ele deseja ver a tabuada. A saída deve ser conforme o exemplo abaixo:
+ Essa aqui :Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10. O usuário deve informar de qual numero ele deseja ver a tabuada. A saída deve ser conforme o exemplo abaixo:
 Tabuada de 5:
 5 X 1 = 5
 5 X 2 = 10
