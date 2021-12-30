@@ -206,7 +206,7 @@ public class Lista1{
         - Sindicato ( 5%) : R$
         = Salário Liquido : R$
         Obs.: Salário Bruto - Descontos = Salário Líquido.
-         */
+
 
         System.out.println("Quanto você ganha por hora? ");
         float hora_Valor = entrada.nextFloat();
@@ -241,7 +241,20 @@ public class Lista1{
             System.out.println("|_______________________________________________________");
 
         }
-      
+        */
+        /*
+        Faça um programa para uma loja de tintas. 
+        O programa deverá pedir o tamanho em metros quadrados da área a ser pintada.
+        Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados 
+        e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00. Informe ao usuário
+        a quantidades de latas de tinta a serem compradas e o preço total.
+         */
+
+        /*
+        Condições: 1 litro de tinta pinta 3 metros quadrados;
+        Uma lata de tem 18 litros então pinta 54 metros. Pois 18 X 3 =  54.
+        lata de tinta = 80 reaiss
+        */
         entrada.close();
     }
 

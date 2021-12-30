@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "resolucao/lista1",
-        "resolucao"
+        "resolucao",
+        "resoluçaoDIo"
     ]
 }

@@ -49,7 +49,7 @@ calcule os descontos e o salário líquido, conforme a tabela abaixo:
 - INSS (8%) : R$
 - Sindicato ( 5%) : R$
 = Salário Liquido : R$
-Obs.: Salário Bruto - Descontos = Salário Líquido.
+Obs.: Salário Bruto - Descontos = Salário Líquido. RESOLVIDA
 Faça um programa para uma loja de tintas. 
 O programa deverá pedir o tamanho em metros quadrados da área a ser pintada.
 Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados 
