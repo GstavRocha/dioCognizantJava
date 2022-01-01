@@ -24,8 +24,18 @@ public class ConsoantesDio {
                     consoantes[count] = letra;
                     quantidadeConsoa++;
                 };
+            count++;
             
         }while(count < consoantes.length);
+
+        System.out.println("Consoantes : ");
+        for(String consoant: consoantes ){
+
+            if( consoant != null){
+            System.out.print(consoant + " ");
+            }
+        }
+        System.out.println(" Quantidade de consoantes: "+ quantidadeConsoa);
         scanner.close();
         
     }
