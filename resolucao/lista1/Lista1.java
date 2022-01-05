@@ -244,10 +244,20 @@ public class Lista1{
         */
         /*
         Faça um programa para uma loja de tintas. 
-        O programa deverá pedir o tamanho em metros quadrados da área a ser pintada.
-        Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados 
-        e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00. Informe ao usuário
-        a quantidades de latas de tinta a serem compradas e o preço total.
+        O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. 1°ENTRADA;
+        Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados CONDIÇÃO.
+        e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00. PREÇO TINTA LATA;
+         
+        Informe ao usuário
+        a quantidades de latas de tinta a serem compradas e o preço total. SAIDA
+
+        
+        Informe ao usuário as quantidades de tinta a serem compradas e os respectivos preços em 3 situações:
+        SAIDA: comprar apenas latas de 18 litros;
+        SAIDA: comprar apenas galões de 3,6 litros;
+        SAIDA: misturar latas e galões, de forma que o desperdício de tinta seja menor. 
+        
+        CONDICIONAL: Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, considere latas cheias.
          */
 
         /*
@@ -255,6 +265,13 @@ public class Lista1{
         Uma lata de tem 18 litros então pinta 54 metros. Pois 18 X 3 =  54.
         lata de tinta = 80 reaiss
         */
+
+        System.out.println(" Informe o tamanho da  Área que você deseja pintar: ");
+        int area = entrada.nextInt();
+        int tintaArea= 1 * 3;
+        int resultTintaArea = tintaArea * area;
+        System.out.println(" Area a ser pintada: "+resultTintaArea+" Metros Quadrados.");
+        
         entrada.close();
     }
 
