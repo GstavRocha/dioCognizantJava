@@ -255,7 +255,8 @@ public class Lista1{
         Informe ao usuário as quantidades de tinta a serem compradas e os respectivos preços em 3 situações:
         SAIDA: comprar apenas latas de 18 litros;
         SAIDA: comprar apenas galões de 3,6 litros;
-        SAIDA: misturar latas e galões, de forma que o desperdício de tinta seja menor. 
+        SAIDA: misturar latas e galões, de forma que o desperdício de tinta seja menor.
+        Saida: Tinta que sobra. 
         
         CONDICIONAL: Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, considere latas cheias.
          */
@@ -264,11 +265,16 @@ public class Lista1{
         Condições: 1 litro de tinta pinta 3 metros quadrados;
         Uma lata de tem 18 litros então pinta 54 metros. Pois 18 X 3 =  54.
         lata de tinta = 80 reaiss
+
+        Se 18 litros custa 80 reais, quanto custa 1 litro? 4 reais e 44 centavos.
+        um galão custa 15 reais e 98 centavos.
         */
 
         System.out.println(" Informe o tamanho da  Área que você deseja pintar: ");
         int area = entrada.nextInt();
         int tintaArea= 1 * 3;
+        float lata = 80.00f;
+        float galao = 15.98f;
         int resultTintaArea = tintaArea * area;
         System.out.println(" Area a ser pintada: "+resultTintaArea+" Metros Quadrados.");
         
