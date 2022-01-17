@@ -15,14 +15,15 @@ public class AtivitidadeTesteArray {
             System.out.println(teste[i]);
         }
         */
-        for( i = 1 ; i < teste.length; i++){
-            System.out.println("Teste" +i);
+        for( i = 1 ; i < teste.length; i ++){
             num = entrada.nextInt();
+            num = teste[i];
+            System.out.println("Teste " +teste);
         }
-        i++;
-        System.out.println(" Print Resultado"+ teste[i]);
-        System.out.println(" Print Resultado"+ teste[i]);
-        System.out.println(" Print Resultado"+ teste[i]);
+        for(int testando: teste){
+
+            System.out.println(" Teste "+testando);
+        }
 
 
         

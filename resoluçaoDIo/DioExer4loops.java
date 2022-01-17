@@ -11,7 +11,7 @@ public class DioExer4loops {
         System.out.println("Quantidade de números: ");
         int quantiNumeros = scanner.nextInt();
         int contador = 0;
-        int numero; 
+        int numero = 0; 
         int numPares = 0;
         int numImpares = 0;
           
