@@ -13,5 +13,11 @@ public class Main {
         testePilha.push(new No(8));
         
         System.out.println(testePilha);
+
+        System.out.println(testePilha.pop()); // deu erro no pop
+        System.out.println(testePilha);
+
+        testePilha.push(new No(99));
+        System.out.println(testePilha);
     }
 }

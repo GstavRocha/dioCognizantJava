@@ -14,8 +14,8 @@ public class Pilha {
         refnNoEntradaPilha.setRefNo(refAuxiliar);
     }
     public No pop(){
-        if(this.isEmpty()){
-            No noPoped = refnNoEntradaPilha.getRefNo();
+        if(!isEmpty()){
+            No noPoped = refnNoEntradaPilha;
             refnNoEntradaPilha = refnNoEntradaPilha.getRefNo();
             return noPoped;
 
