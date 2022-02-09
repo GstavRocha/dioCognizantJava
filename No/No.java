@@ -23,6 +23,9 @@ public class No{
         return objeto;
     }
 
+    public No getRefNo() {
+        return refNo;
+    }
     public void setRefNo(No refNo){
         this.refNo = refNo;
     }
