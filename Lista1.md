@@ -1,38 +1,38 @@
 # EstruturaSequencial
 
-Faça um Programa que mostre a mensagem "Alo mundo" na tela. - RESOLVIDO
-Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número]. - RESOLVIDO
+1. Faça um Programa que mostre a mensagem "Alo mundo" na tela. - RESOLVIDO
+2. Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número]. - RESOLVIDO
 
-Faça um Programa que peça dois números e imprima a soma. -RESOLVIDO
-Faça um Programa que peça as 4 notas bimestrais e mostre a média. - RESOLVIDO
-Faça um Programa que converta metros para centímetros. - RESOLVIDO
-Faça um Programa que peça o raio de um círculo, calcule e mostre sua área. - RESOLVIDO
-Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário. -RESOLVIDO
-Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. 
-Calcule e mostre o total do seu salário no referido mês. - RESOLVIDO
+3. Faça um Programa que peça dois números e imprima a soma. -RESOLVIDO
+4. Faça um Programa que peça as 4 notas bimestrais e mostre a média. - RESOLVIDO
+5. Faça um Programa que converta metros para centímetros. - RESOLVIDO
+6. Faça um Programa que peça o raio de um círculo, calcule e mostre sua área. - RESOLVIDO
+7. Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário. -RESOLVIDO
+8. Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. 
+9. Calcule e mostre o total do seu salário no referido mês. - RESOLVIDO
 
-Faça um Programa que peça a temperatura em graus Fahrenheit,
+10. Faça um Programa que peça a temperatura em graus Fahrenheit,
 transforme e mostre a temperatura em graus Celsius.
 C = 5 * ((F-32) / 9). -Resolvida
 
-Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit. - RESOLVIDO
+11. Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit. - RESOLVIDO
 
-Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
+12. Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
 a) O produto do dobro do primeiro com metade do segundo .
 b) A soma do triplo do primeiro com o terceiro.
 c) O terceiro elevado ao cubo. - RESOLVIDA
 
-Tendo como dados de entrada a altura de uma pessoa,
+13. Tendo como dados de entrada a altura de uma pessoa,
  construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58 - RESOLVIDA
 Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
 Para homens: (72.7*h) - 58
 Para mulheres: (62.1*h) - 44.7 - RESOLVIDA Ficar atento para o uso do Char.
 
-João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o 
+14. João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o 
 rendimento diário de seu trabalho. Toda vez que ele traz um peso de peixes maior 
 que o estabelecido pelo regulamento de pesca do estado de São Paulo (50 quilos)
 deve pagar uma multa de R$ 4,00 por quilo excedente.
-João precisa que você faça um programa que leia a variável peso (peso de peixes) 
+15. João precisa que você faça um programa que leia a variável peso (peso de peixes) 
 e calcule o excesso.
 Gravar na variável excesso a quantidade de quilos além
 do limite e na variável multa o valor da multa que João deverá pagar.
